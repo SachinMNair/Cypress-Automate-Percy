@@ -1,0 +1,29 @@
+{
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "cypress.json",
+    "cypress_version": "9.6.1",
+    "project_name": "Sachin-Automate-Percy",
+    "build_name": "Sachin-Automate-Percy",
+    "parallels": "1",
+    "downloads": ["./results"],
+    "npm_dependencies": {
+      "@percy/cli": "1.8.1",
+      "@percy/cypress": "3.1.2",
+      "cypress": "9.6.1",
+      "mochawesome": "7.1.3"
+    },
+    "headless": false
+  },
+  "connection_settings": {
+    "local": true,
+    "local_mode": "on-demand"
+  },
+  "disable_usage_reporting": false
+}
